@@ -5,7 +5,7 @@ spotipy_object = spotipy.Spotify(client_credentials_manager=spotipy.oauth2.Spoti
 
 
 def get_artists(filepath=
-                '/Users/alaiy/Documents/Projects/etl_Stuff/spotify_analysis/master_latino/data/vivalatino_artists.csv'):
+                '/Users/alaiy/Documents/Projects/etl_Stuff/aws_spotify_etl/vivalatino_artists.csv'):
     with open(filepath, 'r') as file:
         artists = []
         for row in file:
